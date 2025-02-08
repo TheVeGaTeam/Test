@@ -10,6 +10,7 @@
 from DnsXMusic.core.bot import DnsBot
 from DnsXMusic.core.dir import dirr
 from DnsXMusic.core.git import git
+from DnsXMusic.core.cookies import save_cookies
 from DnsXMusic.core.userbot import Userbot
 from DnsXMusic.misc import dbb, heroku, sudo
 
@@ -23,7 +24,7 @@ git()
 
 # Initialize Memory DB
 dbb()
-
+save_cookies()
 # Heroku APP
 heroku()
 
