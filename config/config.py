@@ -18,9 +18,9 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "8186557"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH","efd77b34c69c164ce158037ff5a0d117")
 
 
 ## Get it from @Botfather in Telegram.
@@ -70,7 +70,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("OWNER_ID", "6955568347"))
 
 
 # Your User ID.
@@ -170,7 +170,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 # Chceckout https://www.gbmb.org/mb-to-bytes  for converting mb to bytes
 
-COOKIES = getenv("COOKIES", None)
+COOKIES = getenv("COOKIES", "https://batbin.me/mormaor")
 # https://batbin.me
 
 # If you want your bot to setup the commands automatically in the bot's menu set it to true.
